@@ -5,8 +5,11 @@
 
 # A basic redirect rule
 [[redirects]]
-  from = "/*"
-  to = "https://backend-for-rl.cyclic.app/:splat"
+  from = "/signup"
+  to = "https://backend-for-rl.cyclic.app/signup"
+[[redirects]]
+  from = "/login"
+  to = "https://backend-for-rl.cyclic.app/login"
 
 
 
