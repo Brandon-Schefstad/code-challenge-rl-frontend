@@ -2480,8 +2480,8 @@ html {
   height: 9rem;
 }
 
-.w-\[40rem\] {
-  width: 40rem;
+.w-\[36rem\] {
+  width: 36rem;
 }
 
 .w-\[50\%\] {
@@ -2512,6 +2512,10 @@ html {
   width: 60rem;
 }
 
+.w-\[40rem\] {
+  width: 40rem;
+}
+
 .w-96 {
   width: 24rem;
 }
@@ -2520,16 +2524,16 @@ html {
   width: 20rem;
 }
 
+.w-\[34rem\] {
+  width: 34rem;
+}
+
 .max-w-sm {
   max-width: 24rem;
 }
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid-cols-3 {
@@ -2542,10 +2546,6 @@ html {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .justify-evenly {
@@ -2679,11 +2679,6 @@ html {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
 }
 
 .py-20 {
