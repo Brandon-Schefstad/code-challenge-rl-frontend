@@ -40,8 +40,8 @@ const Dashboard = () => {
 			)
 		})
 		return (
-			<div className="px-12 py-6">
-				<h1 className="text-4xl mb-8">User: {user}</h1>
+			<div className="px-12 pt-6 py-24 max-w-[1400px] m-auto">
+				<h1 className="text-4xl mb-8">Current User: {user}</h1>
 				<SearchUserForm />
 				<AddNewToDoForm
 					setQuery={setQuery}
